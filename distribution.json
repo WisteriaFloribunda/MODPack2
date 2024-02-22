@@ -13,15 +13,15 @@
       "description": "LucaMOD Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
       "icon": "https://raw.githubusercontent.com/WisteriaFloribunda/MODPack2/main/servers/LucaMOD-1.12.2/unnamed.jpg",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "town.luca3.net:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
