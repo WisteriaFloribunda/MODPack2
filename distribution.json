@@ -8,12 +8,12 @@
   },
   "servers": [
     {
-      "id": "test-1.12.2",
-      "name": "test (Minecraft 1.12.2)",
-      "description": "test Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
-      "icon": null,
+      "id": "LucaMOD-1.12.2",
+      "name": "LucaMOD (Minecraft 1.12.2)",
+      "description": "LucaMOD Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
+      "icon": "https://raw.githubusercontent.com/WisteriaFloribunda/MODPack2/main/servers/LucaMOD-1.12.2/unnamed.jpg",
       "version": "1.0.0",
-      "address": "town.luca3.net:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -271,8 +271,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 649218,
-            "url": "https://raw.githubusercontent.com/WisteriaFloribunda/MODPack2/main/servers/test-1.12.2/forgemods/required/jei_1.12.2-4.16.1.1012.jar",
+            "url": "https://raw.githubusercontent.com/WisteriaFloribunda/MODPack2/main/servers/LucaMOD-1.12.2/forgemods/required/jei_1.12.2-4.16.1.1012.jar",
             "MD5": "c08dcdd4f86753d5130f11a987583e85"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1p1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6535847,
+            "url": "https://raw.githubusercontent.com/WisteriaFloribunda/MODPack2/main/servers/LucaMOD-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1p1.jar",
+            "MD5": "dcfb9823c2dcb2d9dd4f19b3bec6e8d5"
           }
         }
       ]
